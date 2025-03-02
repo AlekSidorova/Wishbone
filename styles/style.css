@@ -1,0 +1,31 @@
+.header {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  padding: 34px 141px 30px 152px;
+  justify-items: end;
+}
+
+.header__logo {
+  width: 220px;
+}
+
+.header__links-list {
+  list-style-type: none;
+  display: flex;
+  gap: 33px;
+  font-size: 15px;
+  line-height: 160%;
+}
+
+.header__links-list__button-link{
+  border-radius: 14px;
+  width: 155px;
+  height: 46px;
+  background: #1b1a1a;
+  color: #fff;
+  padding: 11px 21px;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+}
