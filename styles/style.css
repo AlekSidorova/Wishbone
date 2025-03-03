@@ -3,6 +3,8 @@
   grid-template-columns: min-content 1fr;
   padding: 34px 141px 30px 152px;
   justify-items: end;
+  position: sticky;
+  top: 0;
 }
 
 .header__logo {
@@ -138,4 +140,33 @@ color: #403e3b;
 
 .our_firm__card {
   padding-top: 7px;
+}
+
+.photo_section {
+  background-image: url(../images/background_1.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  min-width: 300px;
+  min-height: 600px;
+  position: relative;
+}
+
+.photo_section__text {
+  position: absolute;
+  top: 44.5%;    
+  padding: 0 80px 0 1080px;
+}
+
+.photo_section__title {
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #403e3b;
+}
+
+.photo_section__paragraph {
+  font-size: 16px;
+  line-height: 150%;
+  color: #645c55;
 }
