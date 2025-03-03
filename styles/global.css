@@ -7,7 +7,6 @@
 body {
   margin: 0 auto;
   font-family: Poppins, sans-serif;
-  font-weight: 400;
   width: 1440px;
   background-color: #505050;
 }
@@ -25,6 +24,7 @@ li,
 blockquote {
   margin: 0;
   padding: 0;
+  font-weight: 400;
 }
 
 img {

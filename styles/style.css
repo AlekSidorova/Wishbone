@@ -20,7 +20,7 @@
 
 .header__links-list__button-link{
   border-radius: 14px;
-  width: 155px;
+  max-width: 155px;
   height: 46px;
   background: #1b1a1a;
   color: #fff;
@@ -28,4 +28,60 @@
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.03em;
+}
+
+.cover {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ECE7E4;
+}
+
+.cover__about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 77px 60px;
+  padding: 60px 40px 39px;
+}
+
+.cover__logo {
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #645c55;
+}
+
+.cover__title {
+  font-size: 64px;
+  line-height: 110%;
+  color: #1b1a1a;
+}
+
+.main__text {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.cover__text {
+  color: #403e3b;
+}
+
+.link__detailed {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  padding: 11px 20px;
+  min-height: 46px;
+}
+
+.cover__link {
+  margin: 10px 5px 0;
+  color: #1b1a1a;
+}
+
+.cover__images {
+  background-image: url(../images/cover.png);
+  background-size: auto;
+  background-repeat: no-repeat;
 }
