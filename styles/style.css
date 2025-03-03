@@ -1,5 +1,4 @@
 .header {
-  background-color: #ffffff;
   display: grid;
   grid-template-columns: min-content 1fr;
   padding: 34px 141px 30px 152px;
@@ -58,7 +57,7 @@
   color: #1b1a1a;
 }
 
-.main__text {
+.main_text {
   font-size: 16px;
   line-height: 150%;
 }
@@ -67,7 +66,7 @@
   color: #403e3b;
 }
 
-.link__detailed {
+.link_detailed {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.03em;
@@ -78,10 +77,65 @@
 .cover__link {
   margin: 10px 5px 0;
   color: #1b1a1a;
+  width: 133px;
 }
 
 .cover__images {
   background-image: url(../images/cover.png);
   background-size: auto;
   background-repeat: no-repeat;
+}
+
+.our_firm {
+  padding: 96px 337px 127px;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 138px;
+}
+
+.section_title {
+font-size: 32px;
+line-height: 119%;
+white-space: nowrap;
+}
+
+.our_firm_title{
+color: #403e3b;
+}
+
+.our_firm__text {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.people_with_name {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.people_img {
+  /*  border: 3px solid #cec4bc; */
+  border-radius: 64px;
+  width: 84px;
+  height: 84px;
+}
+
+.people_name {
+  font-size: 17px;
+  color: #1b1a1a;
+  line-height: 16px;
+}
+
+.people_profession{
+  font-size: 14px;
+  line-height: 100%;
+  color: #645c55;
+}
+
+.our_firm__card {
+  padding-top: 7px;
 }
