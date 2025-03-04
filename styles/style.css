@@ -146,12 +146,15 @@ color: #403e3b;
 }
 
 .photo_section {
-  background-image: url(../images/background_1.png);
   background-size: auto;
   background-repeat: no-repeat;
   min-width: 300px;
   min-height: 600px;
   position: relative;
+}
+
+.photo_section__1 {
+  background-image: url(../images/background_1.png);
 }
 
 .photo_section__text {
@@ -223,4 +226,8 @@ color: #403e3b;
   line-height: 144%;
   color: #403e3b;
   padding-top: 15px;
+}
+
+.photo_section__2 {
+  background-image: url(/images/background_2.png);
 }
