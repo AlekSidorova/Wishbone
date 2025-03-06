@@ -161,7 +161,7 @@ color: #403e3b;
 .photo_section__text {
   position: absolute;
   top: 44.5%;    
-  padding: 0 80px 0 1080px;
+  padding-left: 1080px;
 }
 
 .photo_section__title {
@@ -170,6 +170,7 @@ color: #403e3b;
 
 .photo_section__paragraph {
   color: #645c55;
+  max-width: 286px;
 }
 
 .how_we_do {
@@ -268,4 +269,12 @@ color: #403e3b;
   padding: 5px 0;
   line-height: 61%;
   padding-bottom: 23px;
+}
+
+.photo_section__3 {
+  background-image: url(/images/background_3.png);
+}
+
+.photo_section__left {
+  padding-left: 60px;
 }
