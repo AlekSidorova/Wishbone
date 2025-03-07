@@ -278,3 +278,32 @@ color: #403e3b;
 .photo_section__left {
   padding-left: 60px;
 }
+
+.featured_projects {
+  background-color: #F7F7F7;
+  padding: 113px 136px 100px;
+}
+
+.featured_projects__title {
+  color: #1b1a1a;
+}
+
+.featured_projects__text_about {
+  max-width: 581px;
+  font-size: 24px;
+  line-height: 125%;
+  color: #645c55;
+  padding: 14px 0 44px;
+}
+
+.featured_projects__list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0 2px;
+}
+
+.featured_projects__img {
+  width: 375px;
+  height: auto;
+}
