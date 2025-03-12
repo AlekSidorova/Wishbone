@@ -301,9 +301,18 @@ color: #403e3b;
   display: flex;
   gap: 20px;
   padding: 0 2px;
+  position: relative;
+  z-index: 0;
 }
 
 .featured_projects__img {
   width: 375px;
   height: auto;
+}
+
+.featured_projects__name {
+position: absolute;
+top: 40px;
+left: 453px;
+z-index: 1;
 }
