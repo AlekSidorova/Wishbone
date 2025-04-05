@@ -1,0 +1,42 @@
+.heading {
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+} - заголовок большими буквами
+
+.main_text_maxi {
+  font-size: 16px;
+  line-height: 150%;
+} - основной текст 16px
+
+.main_text_mini {
+font-size: 15px;
+line-height: 160%;
+} - основной текст 15px
+
+.link_detailed {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  padding: 11px 20px;
+  min-height: 46px;
+} - кнопка чтобы узнать больше/подробнее
+
+.section_title_mini {
+font-size: 32px;
+line-height: 119%;
+white-space: nowrap;
+} - заголовки абзацев 32px
+
+.section_title_maxi {
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 108%;
+} - заголовки абзацев 39px
+
+.people_with_name {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+} - люди в кружочке с именем 
