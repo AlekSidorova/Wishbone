@@ -40,3 +40,15 @@ white-space: nowrap;
   align-items: center;
   gap: 28px;
 } - люди в кружочке с именем 
+
+.button-link{
+  border-radius: 14px;
+  max-width: 155px;
+  height: 46px;
+  background: #1b1a1a;
+  color: #fff;
+  padding: 11px 21px;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+} - кнопка
