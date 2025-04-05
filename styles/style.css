@@ -120,7 +120,7 @@ color: #403e3b;
 .people_with_name {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 30px;
 }
 
 .people_img {
@@ -339,4 +339,36 @@ color: #403e3b;
   justify-content: center;
   color: #1b1a1a;
   margin: 36px 0 0 8px;
+}
+
+.meet_team {
+  display: grid;
+  grid-template-columns: 378px 773px;
+  min-height: 392px;
+  padding: 95px 136px 129px;
+  gap: 16px;
+}
+
+.meet_team__people {
+  padding-top: 13px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 18px;
+  row-gap: 51px;
+  align-items: start;
+}
+
+
+
+.meet_team__header {
+  color: #403e3b;
+}
+
+.meet_team__main-text {
+  color: #645c55;
+  padding: 14px 0 40px;
+}
+
+.meet_team__link {
+  padding-left: 25px;
 }
