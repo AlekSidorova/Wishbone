@@ -1,11 +1,11 @@
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
   display: grid;
   grid-template-columns: min-content 1fr;
-  padding: 34px 141px 30px 152px;
   justify-items: end;
-  position: sticky;
-  z-index: 2;
-  top: 0;
+  padding: 34px 141px 30px 152px;
 }
 
 .logo {
@@ -13,23 +13,23 @@
 }
 
 .header__links-list {
-  list-style-type: none;
   display: flex;
   gap: 33px;
   font-size: 15px;
   line-height: 160%;
+  list-style-type: none;
 }
 
 .button-link{
-  border-radius: 14px;
   max-width: 155px;
   height: 46px;
-  background: #1b1a1a;
-  color: #fff;
+  border-radius: 14px;
   padding: 11px 21px;
+  color: #fff;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.03em;
+  background: #1b1a1a;
 }
 
 .cover {
@@ -72,30 +72,30 @@
 }
 
 .link_detailed {
+  min-height: 46px;
+  padding: 11px 20px;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.03em;
-  padding: 11px 20px;
-  min-height: 46px;
 }
 
 .cover__link {
+  width: 133px;
   margin: 10px 5px 0;
   color: #1b1a1a;
-  width: 133px;
 }
 
 .cover__images {
   background-image: url(../images/cover.png);
-  background-size: auto;
   background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .our_firm {
-  padding: 96px 336px 127px;
   display: grid;
   grid-template-columns: min-content 1fr;
   gap: 138px;
+  padding: 96px 336px 127px;
 }
 
 .section_title_mini {
@@ -109,11 +109,11 @@ color: #403e3b;
 }
 
 .our_firm__text {
-  padding-top: 5px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
   align-items: flex-start;
+  gap: 10px;
+  padding-top: 5px;
   color: #403e3b;
 } 
 
@@ -124,22 +124,22 @@ color: #403e3b;
 }
 
 .people_img {
-  /*  border: 3px solid #cec4bc; */
-  border-radius: 64px;
   width: 84px;
   height: 84px;
+  /*  border: 3px solid #cec4bc; */
+  border-radius: 64px;
 }
 
 .people_name {
-  font-size: 17px;
   color: #1b1a1a;
+  font-size: 17px;
   line-height: 16px;
 }
 
 .people_profession{
+  color: #645c55;
   font-size: 14px;
   line-height: 100%;
-  color: #645c55;
 }
 
 .our_firm__card {
@@ -147,11 +147,11 @@ color: #403e3b;
 }
 
 .photo_section {
-  background-size: auto;
-  background-repeat: no-repeat;
+  position: relative;
   min-width: 300px;
   min-height: 600px;
-  position: relative;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .photo_section__1 {
@@ -169,8 +169,8 @@ color: #403e3b;
 }
 
 .photo_section__paragraph {
-  color: #645c55;
   max-width: 286px;
+  color: #645c55;
 }
 
 .how_we_do {
@@ -178,8 +178,8 @@ color: #403e3b;
 }
 
 .how_we_do__heading {
-  text-align: center;
   color: #645c55;
+  text-align: center;
 }
 
 .section_title_maxi {
@@ -189,16 +189,16 @@ color: #403e3b;
 }
 
 .how_we_do__title {
-  text-align: center;
-  color: #1b1a1a;
   padding: 14px 0 46px;
+  color: #1b1a1a;
+  text-align: center;
 }
 
 .how_we_do__list {
-  list-style-type: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
+  list-style-type: none;
 }
 
 .how_we_do__card {
@@ -218,16 +218,16 @@ color: #403e3b;
 }
 
 .how_we_do__text {
+  padding: 10px 47px;
   color: #645c55;
   text-align: center;
-  padding: 10px 47px;
 }
 
 .how_we_do__name {
+  padding-top: 15px;
+  color: #403e3b;
   font-size: 18px;
   line-height: 144%;
-  color: #403e3b;
-  padding-top: 15px;
 }
 
 .photo_section__2 {
@@ -235,21 +235,21 @@ color: #403e3b;
 }
 
 .customers {
-  background-color: #403E3B;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 60px 136px;
-  gap: 15px;
   justify-items: start;
+  gap: 15px;
+  padding: 60px 136px;
+  background-color: #403E3B;
 }
 
 .customers_logo {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  align-items: center;
   gap: 75px 96px;
   padding: 39px 40px 20px;
-  align-items: center;
 
 }
 
@@ -259,16 +259,16 @@ color: #403e3b;
 }
 
 .customers__text {
-  color: #ece7e4;
-  padding-top: 74px;
   max-width: 451px;
+  padding-top: 74px;
+  color: #ece7e4;
 }
 
 .customers__header {
-  color: #fff;
   padding: 5px 0;
-  line-height: 61%;
   padding-bottom: 23px;
+  color: #fff;
+  line-height: 61%;
 }
 
 .photo_section__3 {
@@ -280,9 +280,9 @@ color: #403e3b;
 }
 
 .featured_projects {
-  background-color: #F7F7F7;
-  padding: 113px 136px 100px;
   position: relative;
+  padding: 113px 136px 100px;
+  background-color: #F7F7F7;
 }
 
 .featured_projects__title {
@@ -291,17 +291,17 @@ color: #403e3b;
 
 .featured_projects__text_about {
   max-width: 581px;
+  padding: 14px 0 44px;
+  color: #645c55;
   font-size: 24px;
   line-height: 125%;
-  color: #645c55;
-  padding: 14px 0 44px;
 }
 
 .featured_projects__list {
-  list-style-type: none;
   display: flex;
   gap: 20px;
   padding: 0 2px;
+  list-style-type: none;
 
 }
 
@@ -322,9 +322,9 @@ color: #403e3b;
 }
 
 .featured_projects__object {
+  color: #403e3b;
   font-size: 23px;
   line-height: 130%;
-  color: #403e3b;
 }
 
 .featured_projects__link {
@@ -337,25 +337,25 @@ color: #403e3b;
 .featured_projects__view {
   display: flex;
   justify-content: center;
-  color: #1b1a1a;
   margin: 36px 0 0 8px;
+  color: #1b1a1a;
 }
 
 .meet_team {
   display: grid;
   grid-template-columns: 378px 773px;
+  gap: 16px;
   min-height: 392px;
   padding: 95px 136px 129px;
-  gap: 16px;
 }
 
 .meet_team__people {
-  padding-top: 13px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 18px;
-  row-gap: 51px;
   align-items: start;
+  row-gap: 51px;
+  column-gap: 18px;
+  padding-top: 13px;
 }
 
 
@@ -365,8 +365,8 @@ color: #403e3b;
 }
 
 .meet_team__main-text {
-  color: #645c55;
   padding: 14px 0 40px;
+  color: #645c55;
 }
 
 .meet_team__link {
@@ -374,11 +374,11 @@ color: #403e3b;
 }
 
 .question {
-  padding: 100px 136px 110px;
-  background-color: #CEC4BC;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 100px 136px 110px;
+  background-color: #CEC4BC;
 }
 
 .question__title {
@@ -386,12 +386,12 @@ color: #403e3b;
 }
 
 .question__text {
-  max-width: 569px;
-  font-size: 40px;
-  line-height: 105%;
-  color: #1b1a1a;
   position: relative;
   top: -7px;
+  max-width: 569px;
+  color: #1b1a1a;
+  font-size: 40px;
+  line-height: 105%;
 }
 
 .question__link {
@@ -399,10 +399,10 @@ color: #403e3b;
 }
 
 .footer {
-  padding: 61px 136px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  padding: 61px 136px;
 }
 
 .footer__logo {
@@ -411,16 +411,16 @@ color: #403e3b;
 }
 
 .footer__text {
+  color: #645c55;
   font-size: 14px;
   line-height: 143%;
-  color: #645c55;
 }
 
 .footer__link {
-  display: flex;
-  gap: 20px;
   position: relative;
   top: 8px;
+  display: flex;
+  gap: 20px;
 }
 
 .footer__link__logo {
